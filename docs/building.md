@@ -48,6 +48,9 @@ modules must be installed. Python 3 is included in macOS 10.15 and later.
 For earlier macOS versions, Python 3 can be installed using Homebrew or
 MacPorts or similar.
 
+* On Ubuntu, you may need to install pip before installing the required python modules:
+   `apt-get install python3-pip`
+
 To install the required Python modules, run:
 
     $ python3 -m pip install -r etc/pip/compile-requirements.txt
